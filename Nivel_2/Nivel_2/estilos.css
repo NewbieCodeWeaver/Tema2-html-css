@@ -139,6 +139,11 @@ h3 {
     ;
 }
 
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
 #seccion1,
 #seccion2 {
     display: flex;
@@ -260,6 +265,25 @@ h3 {
         display: none;
 
     }
+
+    #cuerpo {
+        display: inherit;
+    }
+
+    #articulos {
+        width: 100%;
+    }
+
+    #sidebar {
+        width: 100%;
+        padding: 1%;
+
+    }
+
+    #footer {
+        width: 100%;
+    }
+   
 }
 
 
